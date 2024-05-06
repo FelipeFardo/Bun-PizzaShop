@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1715038884684,
+      "tag": "0000_thankful_rick_jones",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1715039552484,
+      "tag": "0001_lively_terror",
+      "breakpoints": true
+    }
+  ]
+}

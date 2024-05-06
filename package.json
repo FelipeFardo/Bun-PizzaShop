@@ -6,16 +6,20 @@
     "dev": "bun --watch src/http/server.ts",
     "build": "bun build src/http/server.ts",
     "start": "NODE_ENV=production bun src/http/server.ts",
-    "test": "bun test"
+    "test": "bun test",
+    "generate": "drizzle-kit generate:pg"
   },
   "devDependencies": {
     "bun-types": "latest",
-    "drizzle-kit": "^0.20.18"
+    "drizzle-kit": "^0.20.18",
+    "drizzle-orm": "^0.30.10",
+    "postgres": "^3.4.4"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "@paralleldrive/cuid2": "^2.2.2",
     "elysia": "^1.0.16"
   }
 }
