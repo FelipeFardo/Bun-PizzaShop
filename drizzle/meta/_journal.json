@@ -29,6 +29,13 @@
       "when": 1715040940065,
       "tag": "0003_public_ogun",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1715051634375,
+      "tag": "0004_fresh_mantis",
+      "breakpoints": true
     }
   ]
 }
