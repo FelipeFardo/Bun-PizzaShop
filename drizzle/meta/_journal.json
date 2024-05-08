@@ -36,6 +36,13 @@
       "when": 1715051634375,
       "tag": "0004_fresh_mantis",
       "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1715128401047,
+      "tag": "0005_slow_rhino",
+      "breakpoints": true
     }
   ]
 }
