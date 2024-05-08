@@ -31,6 +31,9 @@ const app = new Elysia()
         set.status = error.status
         return error.toResponse()
       }
+      case 'NOT_FOUND': {
+        return new Response(null, { status: 404 })
+      }
       default: {
         set.status = 500
         console.log(error)
