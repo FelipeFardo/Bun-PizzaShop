@@ -43,6 +43,13 @@
       "when": 1715128401047,
       "tag": "0005_slow_rhino",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1715132691953,
+      "tag": "0006_mature_spiral",
+      "breakpoints": true
     }
   ]
 }
