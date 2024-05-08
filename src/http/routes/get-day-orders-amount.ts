@@ -55,6 +55,4 @@ export const getDayOrdersAmount = new Elysia()
         ? Number((diffFromYesterday - 100).toFixed(2))
         : 0,
     }
-
-    return orderPerDay
   })
