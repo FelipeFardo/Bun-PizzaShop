@@ -7,7 +7,7 @@ import { orders } from '../../db/schema'
 import { and, eq, gte, lte, sql, sum } from 'drizzle-orm'
 
 export const getDailyReceiptInPeriod = new Elysia().use(auth).get(
-  '/metrics/day-orders-amount',
+  '/metrics/daily-receipt-in-period',
   async ({ getCurrentUser, query, set }) => {
     const { restaurantId } = await getCurrentUser()
 

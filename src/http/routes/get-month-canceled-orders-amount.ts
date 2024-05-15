@@ -8,7 +8,7 @@ import { and, count, eq, gte, sql } from 'drizzle-orm'
 
 export const getMonthCanceledOrdersAmount = new Elysia()
   .use(auth)
-  .get('/metrics/month-orders-amount', async ({ getCurrentUser }) => {
+  .get('/metrics/month-canceled-orders-amount', async ({ getCurrentUser }) => {
     const { restaurantId } = await getCurrentUser()
 
     if (!restaurantId) {
